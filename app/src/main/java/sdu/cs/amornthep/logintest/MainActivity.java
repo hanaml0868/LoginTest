@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
                 //Check username and password
 
-                if ((userString.equals("admin")) && (passString.equals("1234"))) {
+                else if ((userString.equals("admin")) && (passString.equals("1234"))) {
                     Toast.makeText(getApplicationContext(), "Login Success", Toast.LENGTH_SHORT).show();
 
                     //ส่งข้อมูลไปหน้าเมนู
@@ -56,3 +56,4 @@ public class MainActivity extends AppCompatActivity {
 
     }//end onCreate
 }// end class
+ // Toast ข้อความที่แสดงออกมาครู่หนึ่งแล้วหานไปเอง

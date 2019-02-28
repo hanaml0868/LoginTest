@@ -18,7 +18,7 @@
         android:layout_marginBottom="8dp"
         android:text="สวัสดีครับ Admin!!!!"
         android:textColor="@color/colorPrimary"
-        android:textSize="30sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
